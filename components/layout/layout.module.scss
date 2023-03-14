@@ -1,0 +1,33 @@
+
+.navbar {
+    background-color: #F0A04B;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+
+    .add{
+        background-color: #EB455F;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .title{
+        flex: 1;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+.main{
+    background-color: #FEFBE9;
+    min-height: 85.5vh;
+}
+
+.footer{
+    background-color: #183A1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #FEFBE9;
+}
