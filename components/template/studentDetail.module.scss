@@ -1,0 +1,67 @@
+.detail{
+    padding-top: 60px ;
+    // color: #f6f6f6;
+
+}
+
+.info , .lesson{
+    background-color: #FFDD83;
+    border-radius: 15px;
+    padding: 50px  30px;
+    margin-bottom: 50px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit{
+    background-color: #EB455F;
+    padding: 10px;
+    border-radius: 10px;
+    color: #f6f6f6;
+    font-size: 12px;
+}
+
+.det{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0  15px;
+}
+
+.text , .text2{
+    p{
+        padding: 10px ;
+        font-size: 18px;
+    }
+}
+.text2{
+    display: flex;
+    align-items: center;
+}
+
+.name { 
+    font-size: 35px;
+    font-weight: bold;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.error{
+    margin-left: 15px;
+    font-size: 25;
+    font-style: italic;
+}
+
+
+.less{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

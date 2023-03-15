@@ -1,0 +1,43 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+    label{
+        margin-bottom: 5px;
+    }
+
+    input{
+        width: 200px;
+        padding: 10px 5px;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+}
+
+
+.lesson{
+    display: flex;
+    background-color: #FEFBE9;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin: 20px 30px;
+    width: 600px;
+    padding:  20px;
+
+}
+
+.icon{
+    font-size: 20px;
+}
+
+.bt{
+    background-color: #EB455F;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 15px;
+}
