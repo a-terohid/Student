@@ -31,7 +31,7 @@ const Card = ({data}) => {
                         phoneNumber ? <p>phone number: { phoneNumber } </p> : null
                     }
                     {
-                        avvrage ? <p>avrage: { avvrage } </p> : null
+                        avvrage ? <p>avrage: { avvrage.toFixed(2) } </p> : null
                     }
             </div>
             <div className={ style.see } >
