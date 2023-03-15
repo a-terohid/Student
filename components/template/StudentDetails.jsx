@@ -28,7 +28,7 @@ const StudentDetails = ({ data }) => {
                     </div>
                     <div className={ styles.text2 } >
                         <h4>avrage:</h4>
-                        { avvrage ? <p>{ avvrage }</p> : <p> ----------------- </p> }
+                        { avvrage ? <p>{ avvrage.toFixed(2) }</p> : <p> ----------------- </p> }
                     </div>
                </div>
             </div>

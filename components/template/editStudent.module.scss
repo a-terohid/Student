@@ -1,0 +1,40 @@
+.countainer{
+    padding: 50px 0;
+}
+
+.Edit{
+    background-color: #FFDD83;
+    border-radius: 15px;
+    padding: 50px  30px;
+    margin-bottom: 50px;
+
+    h1{
+        margin-bottom: 20px;
+    }
+
+}
+
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px ;
+
+    button{
+        padding: 15px 30px;
+        border-radius: 10px;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .save {
+        background-color: #5D9C59;
+    }
+
+    .cancel {
+        background-color: #DF2E38;
+        margin-right: 20px;
+    }
+}
