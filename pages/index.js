@@ -1,10 +1,14 @@
 import Students from "@/components/template/Students";
 import Student from "@/model/student";
 import connectDB from "@/utils/connectDB";
+import Head from "next/head";
 
 const index = ({ students }) => {
     return (
         <div>
+            <Head>
+                <title>Students</title>
+            </Head>
            <Students students={ students } /> 
         </div>
     );

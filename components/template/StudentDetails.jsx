@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import Lessen from "../module/Lessen";
 import styles from "./studentDetail.module.scss"
@@ -8,6 +9,9 @@ const StudentDetails = ({ data }) => {
 
     return (
         <div className={ styles.detail } >
+            <Head>
+                <title>student - { name }</title>
+            </Head>
             <div className={ styles.info } >
                 <div className={ styles.head } >
                     <h1 className={ styles.name } >{name} {lastName}</h1>

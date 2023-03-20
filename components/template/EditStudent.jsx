@@ -1,4 +1,5 @@
 import axios from 'axios';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import Form from '../module/Form';
@@ -33,6 +34,9 @@ const EditStudent = ({ data }) => {
 
     return (
         <div className={ style.countainer } >
+            <Head>
+                <title>Edit Student - { name } { lastName }</title>
+            </Head>
             <div className={ style.Edit } >
                 <h1>Edit student:</h1>
                 <Form student={ student } setStudent={ setStudent } />
