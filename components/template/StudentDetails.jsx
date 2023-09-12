@@ -10,7 +10,7 @@ const StudentDetails = ({ data }) => {
     return (
         <div className={ styles.detail } >
             <Head>
-                <title>student - { name }</title>
+                <title>student - { name } { lastName }</title>
             </Head>
             <div className={ styles.info } >
                 <div className={ styles.head } >
@@ -42,7 +42,7 @@ const StudentDetails = ({ data }) => {
                     !lessons.length ? <p className={ styles.error } >this student dont have any lesson!!</p> : 
                     <div className={styles.less} >
                         {
-                            lessons.map( ( lesson ) => <Lessen  data={ lesson } /> )
+                            lessons.map( ( lesson , index ) => <Lessen key={ index }  data={ lesson } /> )
                         }
                     </div>
                 }
